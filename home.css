@@ -1,0 +1,33 @@
+body
+{
+    background-color: rgb(187, 171, 171);
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+li{
+    float: left;
+    border-right: 1px solid black;
+}
+a{
+    display: block;
+    padding: 0 28;
+    color: black;
+    text-decoration: none;
+}
+a:hover,.active a{
+    background-color: green;
+}
+.imgclass{
+    margin: 0;
+    padding: 0;
+    display: block;
+    line-height: 10px;
+}
